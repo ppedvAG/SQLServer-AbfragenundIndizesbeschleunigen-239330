@@ -34,6 +34,12 @@
           <AssociatedConnUserName />
           <FullPath>02-DSG_Seiten und Blöcke.sql</FullPath>
         </FileNode>
+        <FileNode Name="03-DBObjekte.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03-DBObjekte.sql</FullPath>
+        </FileNode>
         <FileNode Name="ADR Cleanup.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
