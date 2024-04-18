@@ -46,3 +46,44 @@ GO
 
 --Warum hat die Tabelle t1 160MB , bei ca 80MB Daten
 --Warum liest man aus der Tabelle KU 57000, wenn der dbcc nur 41000 Seiten angibt
+
+
+
+
+
+use northwind;
+
+
+set statistics io, time on
+
+select * from kundeumsatz where freight = 0.02  --56878
+
+--dbcc?
+
+dbcc showcontig('kundeumsatz')
+
+
+select forwarded_record_count
+from sys.dm_db_index_physical_stats(db_id(), object_id('kundeumsatz'), null, null, 'detailed')
+
+--Problem beseitigen
+
+--Clustered IX
+USE [Northwind]
+
+GO
+
+CREATE CLUSTERED INDEX [CLIX] ON [dbo].[KundeUmsatz]
+(	[id] ASC  )
+GO
+
+
+--den könnte man danach auch wieder löschen, dann aber ist ein fwrc wieder mögich
+--> statt 56000 Seiten eam Ende 41000
+
+--- Tipp: Brent Ozar --> sp_blitzIndex
+
+
+
+
+

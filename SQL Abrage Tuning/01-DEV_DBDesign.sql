@@ -1,7 +1,7 @@
 --Normalisierung vs Redundanz
 --Jeder Join kostet, Redundanz schafft Geschwindigkeit
--- Allerding muss diese gepflegt werden--> TRigger geleten als langsam
-----> mit Rechten Zugriff auf Tabelle absichern, dafür mit Prozedur arbeiten, die redundanz pflegt
+-- Allerding muss diese gepflegt werden--> Trigger gelten als langsam
+----> mit Rechten Zugriff auf Tabelle absichern, dafür mit Prozedur arbeiten, die Redundanz pflegt
 
 
 
