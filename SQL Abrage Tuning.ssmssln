@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 20.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Abrage Tuning", "SQL Abrage Tuning\SQL Abrage Tuning.ssmssqlproj", "{7B9FFD75-AC3A-4EB3-A3E9-03EF7897FC75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B9FFD75-AC3A-4EB3-A3E9-03EF7897FC75}.Default|Default.ActiveCfg = Default
+		{DD9C6362-C06B-4E19-A253-697B63918EF9}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25648097-3E53-438C-9CC6-B0B3544EDE53}
+	EndGlobalSection
+EndGlobal

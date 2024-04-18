@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Abrage Tuning">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="BIGBEN:BIGBEN\Administrator">
+          <Created>2024-04-17T15:08:45.0790554+02:00</Created>
+          <Type>SQL</Type>
+          <Server>BIGBEN</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01-DEV_DBDesign.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01-DEV_DBDesign.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02-DSG_Seiten und Blöcke.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02-DSG_Seiten und Blöcke.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADR Cleanup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ADR Cleanup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADR_Fill1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ADR_Fill1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADR_Fill2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ADR_Fill2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADR_SETUP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ADR_SETUP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADR_View_Speicher.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ADR_View_Speicher.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Aggregate mit WindowFunction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Aggregate mit WindowFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cursor_Good_better WF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Cursor_Good_better WF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cursor_Navigation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Cursor_Navigation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEV_Heaps und deren Probleme.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DEV_Heaps und deren Probleme.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEV_Problem der PROC und F.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DEV_Problem der PROC und F.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEV_Probleme der Prozeduren und Functions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DEV_Probleme der Prozeduren und Functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEV_Probleme der Sicht.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DEV_Probleme der Sicht.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DSG__Partitionierung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DSG__Partitionierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DSG__Seitenprobleme.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DSG__Seitenprobleme.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DSG_Kompression.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DSG_Kompression.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DSG_part Sicht.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DSG_part Sicht.sql</FullPath>
+        </FileNode>
+        <FileNode Name="instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_1_UDF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IQP_1_UDF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_2_Memory_Grant.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IQP_2_Memory_Grant.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_3_Batch_Mode_Adaptive_Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IQP_3_Batch_Mode_Adaptive_Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_4_Interleave_TabellenFunktion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IQP_4_Interleave_TabellenFunktion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_5_Table_Variable_verzögerte Kompilierung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IQP_5_Table_Variable_verzögerte Kompilierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_6_BatchMode vs Row.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>IQP_6_BatchMode vs Row.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IX__Columnstore_realtime_inMemory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IX__Columnstore_realtime_inMemory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IX__ColumnstoreIX.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IX__ColumnstoreIX.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IX__Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IX__Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IX_IndexWartung_OlaHallengren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IX_IndexWartung_OlaHallengren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Joinarten.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Joinarten.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Sperrverhalten Lesen bei versch. TX-Stufgen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Sperrverhalten Lesen bei versch. TX-Stufgen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Spieltabelle mit ID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Spieltabelle mit ID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Statistiken Northwind update.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Statistiken Northwind update.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Waits in Abfrage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Waits in Abfrage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WF_Aggregate mit WindowFunction.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WF_Aggregate mit WindowFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WF_LAG_LEAD.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WF_LAG_LEAD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WF_RANK.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WF_RANK.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
