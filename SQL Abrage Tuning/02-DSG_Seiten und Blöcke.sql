@@ -8,6 +8,18 @@ max 8072 bytes Datenvolumen
 1 DS mit fixen Längen max 8060byts und muss in Seite passen
 max 700 DS pro Seite
 
+
+-------------------
+VERWALTUNG
+--------------------
+DS1
+DS2
+DS3
+LEER
+---------------------
+
+
+
 8 zusammenhängende Seiten = Block
 
 Seite = Page 
@@ -35,7 +47,7 @@ GO 20000
 --Zeit Messen
 
 
-dbcc shwocontig('Tabelle')
+dbcc showcontig('Tabelle')
 
 
 --besser weil detailierter

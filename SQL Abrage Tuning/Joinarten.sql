@@ -28,12 +28,6 @@ set statistics io, time on
 --sql kann sich anpassen  adaptiv join--< entscheeidet
 --im gleichem plan zwischen hash und Loop join
 
- select * into ku2 from kundeumsatz
-
- select * from ku2 where id = 2
- select * from ku2 where freight = 0.02
- select * from ku2 where customerid = 'ALFKI'	and City = 'berlin'
-
  --
 
 

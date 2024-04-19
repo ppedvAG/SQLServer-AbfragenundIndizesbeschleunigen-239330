@@ -123,13 +123,6 @@ select country, count(distinct country) from vdemo1 group by country
 select country, count(*) from customers group by country
 
 
-
-
-
-
-
-
-
 create or alter proc gpdemo3 
 as
 select getdate();
@@ -138,6 +131,51 @@ GO
 
 
 exec gpdemo3
+
+
+
+--f()
+select f(wert), f(spalte) from f(wert) where f(spalte) < (f(wert)
+
+
+select * from orders
+select * from [Order Details]
+
+select dbo.fRngSumme(10248) = 440.00;
+GO
+
+
+create or alter function f_RngSumme(@BestId int) returns money
+as
+	BEGIN
+		return 		(select  sum(unitprice*quantity) from [Order Details]
+					 where orderid = @BestId)
+	END;
+GO
+
+
+select dbo.f_RngSumme(10248)
+
+
+ALTER DATABASE [Northwind] SET COMPATIBILITY_LEVEL = 120
+
+
+set statistics io, time on
+select dbo.f_RngSumme(orderid) as RSumme, * from orders
+	where dbo.f_RngSumme < 500
+
+ALTER DATABASE [Northwind] SET COMPATIBILITY_LEVEL = 160
+
+
+set statistics io, time on
+select  * from orders
+	where dbo.f_RngSumme(orderid) < 500
+
+
+
+
+
+
 
 
 

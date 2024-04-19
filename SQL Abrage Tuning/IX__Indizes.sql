@@ -17,15 +17,25 @@ gut bei geringen Resultset (id)
 
 --------------------------
 eindeutiger IX
-zusammengesetzter IX
-max 16 Spalten/32 und max 900 Schlüssellänge
+
+zusammengesetzter IX (where)
+max 16 Spalten/32 und max 900 bytes Schlüssellänge
+mehr als 4 Spalten machen eigtl fast nie Sinn
+
+
 
 gefilterter IX
 nicht alle Datensätze
+macht nur Sinn, wenn die Anzhal der Eben sinkt
+--> sonst nur Arbeit und kein Vorteil
+
+
 
 IX mit eingeschlossenen Spalten
 1023 Spalten
 belastet den Baum nicht
+
+
 
 partitionierter IX
 entspricht gefilteren IX auf yhsikalischer Ebene
